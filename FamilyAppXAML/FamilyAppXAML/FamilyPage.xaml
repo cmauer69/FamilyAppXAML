@@ -4,7 +4,7 @@
              x:Class="FamilyAppXAML.FamilyPage"
              Title="Family"
              BackgroundColor ="#FFD700"
-             Padding ="10,10,10,10">
+             Padding ="8,8,8,8">
 
   <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
   <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
