@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FamilyAppXAML.FamilyPage"
+             Title="Family"
+             BackgroundColor ="#FFD700"
+             Padding ="10,10,10,10">
+
+  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+  <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+    
+      <StackLayout>
+    <Label Text="Greetings from the Mauer Family!" 
+           IsVisible="True" 
+           Opacity="0.75" 
+           HorizontalTextAlignment="Center" 
+           TextColor="#A52A2A" 
+           BackgroundColor="#FFD700" 
+           FontSize="Large" 
+           FontAttributes="Bold,Italic" />
+ 
+    <Label VerticalOptions="StartAndExpand" BackgroundColor="#0000FF" TextColor = "#7DBD7C">
+      <Label.FormattedText>
+        <FormattedString>
+          <Span Text="The dad's name is " FontAttributes="Bold" FontSize="18"/>
+          <Span Text="Clifford Mauer" FontAttributes="Bold" FontSize="24"/>
+          <Span Text=". I make my living programming computers." FontAttributes="Bold" FontSize="18"/>
+        </FormattedString>
+      </Label.FormattedText>
+    </Label>
+
+    <Label>
+      <Label.TextColor>
+        #1E90FF
+      </Label.TextColor>
+        <Label.FormattedText>
+        <FormattedString>
+           <Span Text="The mom's name is " FontAttributes="Bold" FontSize="18"/>
+          <Span Text="Sally Mauer" FontAttributes="Bold" FontSize="24"/>
+          <Span Text=". Sally "  FontAttributes="Bold" FontSize="24"/>
+          <Span Text="is a Minneapolis School bus driver."  FontAttributes="Bold" FontSize="18"/>
+        </FormattedString>
+      </Label.FormattedText>
+    </Label>
+
+    <Label HorizontalTextAlignment = "Center" TextColor="#C71585">
+      <Label.FormattedText>
+        <FormattedString>
+          <Span Text="We have two daughters. " FontAttributes="Bold" FontSize="18"/>
+        </FormattedString>
+      </Label.FormattedText>
+    </Label>
+
+    <Label>
+      <Label.TextColor>
+        #4B631D
+      </Label.TextColor>
+      <Label.FormattedText>
+        <FormattedString>
+          <Span Text="My oldest daughter is " FontAttributes="Bold" FontSize="18"/>
+          <Span Text="Carrie." FontAttributes="Bold" FontSize="24"/>
+        </FormattedString>
+      </Label.FormattedText>
+     </Label>
+    <Label>
+      <Label.TextColor>
+        #4B631D
+      </Label.TextColor>
+       <Label.FormattedText>
+        <FormattedString>
+         <Span Text="She is married to "  FontAttributes="Bold" FontSize="18"/>
+          <Span Text="Steve Koski." FontAttributes="Bold" FontSize="24"/>
+          <Span Text="Carrie "  FontAttributes="Bold" FontSize="24"/>
+          <Span Text="is a social worker for Hennepin County and "  FontAttributes="Bold" FontSize="18"/>
+          <Span Text="Steve "  FontAttributes="Bold" FontSize="24"/>
+          <Span Text="works for a software company."  FontAttributes="Bold" FontSize="18"/>
+        </FormattedString>
+      </Label.FormattedText>
+    </Label>
+
+    <Label>
+      <Label.TextColor>
+        #ff6400
+      </Label.TextColor>
+      <Label.FormattedText>
+        <FormattedString>
+          <Span Text="My youngest daughter is " FontAttributes="Bold" FontSize="18"/>
+          <Span Text="Sarah." FontAttributes="Bold" FontSize="24"/>
+         </FormattedString>
+      </Label.FormattedText>
+    </Label>
+     <Label>
+       <Label.TextColor>
+        #ff6400
+      </Label.TextColor>
+    <Label.FormattedText>
+        <FormattedString>
+          <Span Text="She is married to "  FontAttributes="Bold" FontSize="18"/>
+          <Span Text="Nicholas Rohlstad." FontAttributes="Bold" FontSize="24"/>
+          <Span Text="Sarah "  FontAttributes="Bold" FontSize="24"/>
+          <Span Text="runs a tv repair business and "  FontAttributes="Bold" FontSize="18"/>
+          <Span Text="Nick "  FontAttributes="Bold" FontSize="24"/>
+          <Span Text="is a copier technician and works for a company called Metro Sales."  FontAttributes="Bold" FontSize="18"/>
+        </FormattedString>
+      </Label.FormattedText>
+    </Label>
+ 
+      <Label HorizontalTextAlignment = "Center" TextColor="#ff0000">
+      <Label.FormattedText>
+        <FormattedString>
+          <Span Text="We have three grandchildren. " FontAttributes="Bold" FontSize="18"/>
+        </FormattedString>
+      </Label.FormattedText>
+    </Label>
+
+      <Label>
+      <Label.TextColor>
+        #4e783a
+      </Label.TextColor>
+      <Label.FormattedText>
+        <FormattedString>
+          <Span Text="My oldest grandchild is " FontAttributes="Bold" FontSize="18"/>
+          <Span Text="Gavin." FontAttributes="Bold" FontSize="24"/>
+       </FormattedString>
+      </Label.FormattedText>
+    </Label>
+      <Label>
+      <Label.TextColor>
+        #4e783a
+      </Label.TextColor>
+      <Label.FormattedText>
+        <FormattedString>
+          <Span Text="His mom and dad are "  FontAttributes="Bold" FontSize="18"/>
+          <Span Text="Sarah and Nick." FontAttributes="Bold" FontSize="24"/>
+          <Span Text="Gavin "  FontAttributes="Bold" FontSize="24"/>
+          <Span Text="enjoys playing video games and building Lego sets."  FontAttributes="Bold" FontSize="18"/>
+        </FormattedString>
+      </Label.FormattedText>
+    </Label>
+
+      <Label>
+      <Label.TextColor>
+        #ff19be
+      </Label.TextColor>
+      <Label.FormattedText>
+        <FormattedString>
+          <Span Text="My middle grandchild is " FontAttributes="Bold" FontSize="18"/>
+          <Span Text="Morgan." FontAttributes="Bold" FontSize="24"/>
+        </FormattedString>
+      </Label.FormattedText>
+    </Label>
+      <Label>
+      <Label.TextColor>
+        #ff19be
+      </Label.TextColor>
+      <Label.FormattedText>
+        <FormattedString>
+          <Span Text="Her mom and dad are "  FontAttributes="Bold" FontSize="18"/>
+          <Span Text="Sarah and Nick." FontAttributes="Bold" FontSize="24"/>
+          <Span Text="Morgan "  FontAttributes="Bold" FontSize="24"/>
+          <Span Text="likes to dance and sing and loves playing with her dog Daisy."  FontAttributes="Bold" FontSize="18"/>
+        </FormattedString>
+      </Label.FormattedText>
+    </Label>
+
+          <Label>
+      <Label.TextColor>
+        #61ab5c
+      </Label.TextColor>
+      <Label.FormattedText>
+        <FormattedString>
+          <Span Text="My youngest grandchild is " FontAttributes="Bold" FontSize="18"/>
+          <Span Text="Bennet." FontAttributes="Bold" FontSize="24"/>
+        </FormattedString>
+      </Label.FormattedText>
+    </Label>
+         <Label>
+      <Label.TextColor>
+        #61ab5c
+      </Label.TextColor>
+      <Label.FormattedText>
+        <FormattedString>
+          <Span Text="His mom and dad are "  FontAttributes="Bold" FontSize="18"/>
+          <Span Text="Carrie and Steve." FontAttributes="Bold" FontSize="24"/>
+          <Span Text="Bennett "  FontAttributes="Bold" FontSize="24"/>
+          <Span Text="loves to play with his letters and he likes bossing his pet vacuum cleaner to stay off of the living room curtains."  FontAttributes="Bold" FontSize="18"/>
+        </FormattedString>
+      </Label.FormattedText>
+    </Label>
+
+  </StackLayout>
+</ScrollView>
+
+</ContentPage>
