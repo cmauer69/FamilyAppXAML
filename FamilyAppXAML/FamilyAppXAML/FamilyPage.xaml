@@ -20,6 +20,7 @@
            FontAttributes="Bold,Italic" />
  
     <Label VerticalOptions="StartAndExpand" BackgroundColor="#0000FF" TextColor = "#7DBD7C">
+      <Image Source="https://xamarin.com/content/images/pages/forms/example-app.png" />
       <Label.FormattedText>
         <FormattedString>
           <Span Text="The dad's name is " FontAttributes="Bold" FontSize="18"/>
